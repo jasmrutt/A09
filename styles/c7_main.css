@@ -75,6 +75,11 @@ header img {
 }
 #nav_menu li ul li{
 	display: block;
+	clear: both;
+}
+#nav_menu li:hover ul{
+	display: block;
+	left: 0;
 }
 #navm_menu::after{
 	content: "";

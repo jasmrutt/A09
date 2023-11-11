@@ -54,10 +54,11 @@ header img {
 	margin: 0;
 	padding: 0;
 }
-#nav_menu li{
+#nav_menu ul li{
 	float: left;
+	position: relative;
 }
-#nav_menu li a{
+#nav_menu ul li a{
 	display: block;
 	width: 160px;
 	text-align: center;
@@ -67,7 +68,7 @@ header img {
 	color: white;
 	font-weight: bold;
 }
-.current{
+#nav_menu a.current{
 	color: yellow;
 }
 #nav_menu ul ul{

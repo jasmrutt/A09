@@ -45,16 +45,13 @@ header img {
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
 }
-/* style for nav menu */
-#nav_menu{
-	position: relative;
-}
+/* styles for nav bar */
 #nav_menu ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
-#nav_menu ul li{
+#nav_menu li{
 	float: left;
 }
 #nav_menu li a{
@@ -67,6 +64,12 @@ header img {
 	color: white;
 	font-weight: bold;
 }
+.current{
+	color: yellow;
+}
+#nav_menu{
+	position: relative;
+}
 #nav_menu li ul{
 	display: none;
 	position: absolute;
@@ -77,17 +80,15 @@ header img {
 	display: block;
 	clear: both;
 }
+
 #nav_menu li:hover ul{
 	display: block;
 	left: 0;
 }
-#navm_menu::after{
+#nav_menu::after{
 	content: "";
-	display: table;
+	display: block;
 	clear: both;
-}
-.current{
-	color: yellow;
 }
 /* the styles for the section */
 section {
